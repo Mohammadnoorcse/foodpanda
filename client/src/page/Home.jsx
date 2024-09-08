@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Home = props => {
   return (
-    <div>Home</div>
+    <div className='w-full h-full'>Home</div>
   )
 }
 
