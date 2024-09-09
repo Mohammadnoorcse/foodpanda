@@ -1,12 +1,17 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import Homepart1 from '../component/home/Homepart1';
+import Homepart2 from '../component/home/Homepart2';
+import Homepart3 from '../component/home/Homepart3';
 
-const Home = props => {
+const Home = () => {
   return (
-    <div className='w-full h-full'>Home</div>
-  )
+    <>
+     <Homepart1/>
+     <Homepart2/>
+     <Homepart3/>
+    
+    </>
+  );
 }
-
-Home.propTypes = {}
 
 export default Home
