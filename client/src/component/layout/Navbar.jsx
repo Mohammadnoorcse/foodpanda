@@ -50,9 +50,9 @@ const Navbar = () => {
               <span>EN</span>
               <i class="fa-solid fa-chevron-down text-[#E21B70]"></i>
             </div>
-            <div className="w-8 h-8 hover:bg-[#F0F2F2] flex justify-center items-center rounded-[100%] cursor-pointer">
+            <Link to="/cart" className="w-8 h-8 hover:bg-[#F0F2F2] flex justify-center items-center rounded-[100%] cursor-pointer">
               <i class="fa-solid fa-cart-shopping text-[#4D5358]"></i>
-            </div>
+            </Link>
           </div>
 
           {/* login model */}
