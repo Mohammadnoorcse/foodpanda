@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import FoodCard from '../component/food/FoodCard';
 
 const Food = () => {
+  // aminur
   return (
     <>
       <div className="w-full flex justify-center items-center">
