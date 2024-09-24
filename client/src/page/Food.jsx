@@ -5,6 +5,7 @@ import FoodCard from '../component/food/FoodCard';
 const Food = () => {
   // aminur
   // noor
+  // 
   return (
     <>
       <div className="w-full flex justify-center items-center">
